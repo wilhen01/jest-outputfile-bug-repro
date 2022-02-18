@@ -1,0 +1,12 @@
+# Never commit node modues
+node_modules
+
+# coverage reports
+coverage
+
+# test reports
+test-report
+test-results.json
+
+# Mac OS stuff
+.DS_Store

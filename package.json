@@ -1,0 +1,28 @@
+{
+  "name": "jest-outputfile-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilhen01/jest-outputfile-bug-repro.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Henry Wilson",
+  "main": "src/index.ts",
+  "scripts": {
+    "test-outputfile": "jest --outputFile test-results.json --json",
+    "test-no-outputfile": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "jest": "latest",
+    "jest-junit": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
